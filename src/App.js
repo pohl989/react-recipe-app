@@ -1,8 +1,11 @@
+import RecipeList from './components/RecipeList'
+
 import './App.css'
+import {starterRecipes} from './data'
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <RecipeList recipes={starterRecipes} />
   )
 }
 
